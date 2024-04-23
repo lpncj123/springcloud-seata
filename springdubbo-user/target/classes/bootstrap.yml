@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: springdubbouser
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.111.140:8848
+        password: nacos
+        username: nacos
+        namespace: springclouddubbo
+      config:
+        server-addr: 192.168.111.140:8848
+        namespace: springclouddubbo
+        group: group-one
+        file-extension: yml
+
+
+
