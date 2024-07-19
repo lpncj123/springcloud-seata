@@ -1,6 +1,7 @@
 package cn.lp.springdubbouser.feign;
 
 import cn.lp.springdubbouser.model.Balance;
+import cn.lp.springdubbouser.service.BalanceTccAction;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
